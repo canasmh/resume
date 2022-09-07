@@ -1,0 +1,53 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 8.5in;
+  height: 11in;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+h1, h2 {
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: #0F3460;
+}
+
+h3, h5, h6, p {
+  margin: 4px auto;
+}
+
+h6 {
+  color: #2B4865;
+}
+
+.page {
+  page-break-after: always;
+  position: relative;
+  width: 8.5in;
+  height: 11in;
+  margin: 0;
+  border: 1px solid #000;
+}
+
+.page-content {
+  margin: 0.375in;
+  max-height: 10.625in;
+  overflow-y: scroll;
+}
+
+.header {
+  margin: 0 auto 16px;
+}
