@@ -59,7 +59,7 @@ h4 {
 h6 {
   color: #2B4865;
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 ul {
@@ -96,7 +96,7 @@ li::before {
 }
 
 .header {
-  margin: 0 auto 16px;
+  margin: 0 auto 10px;
 }
 
 .extra-bold {
@@ -114,4 +114,8 @@ li::before {
 .second-col {
   background-color: #ECECEC;
   padding-right: 0.1875in;
+}
+
+.skills {
+  margin-top: 5px;
 }
