@@ -49,6 +49,10 @@ h3 {
   margin-top: 8px;
 }
 
+h3 span {
+  font-size: 14px;
+}
+
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -104,6 +108,10 @@ li::before {
 }
 
 .light {
+  font-weight: 400;
+}
+
+.lighter {
   font-weight: 300;
 }
 
