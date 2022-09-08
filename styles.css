@@ -24,6 +24,17 @@ p, li {
   font-size: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  margin: 4px 12px;
+}
+
+a:hover {
+  color: #0F3460;
+}
+
 h3, h4, h6, p {
   margin: 0;
 }
@@ -58,6 +69,7 @@ h4 {
   font-weight: 500;
   font-size: 14px;
   margin: 4px 0;
+  letter-spacing: 4px;
 }
 
 h6 {
@@ -100,7 +112,13 @@ li::before {
 }
 
 .header {
-  margin: 0 auto 10px;
+  margin: 0 auto 6px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.fab, .fa-solid {
+  color: #0F3460;
 }
 
 .extra-bold {
