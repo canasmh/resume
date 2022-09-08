@@ -107,6 +107,10 @@ li::before {
   font-weight: 600;
 }
 
+.bold {
+  font-weight: 500;
+}
+
 .light {
   font-weight: 400;
 }
@@ -119,6 +123,10 @@ li::before {
   float: right;
 }
 
+.indent {
+  margin-left: 24px;
+}
+
 .second-col {
   background-color: #ECECEC;
   padding-right: 0.1875in;
@@ -126,4 +134,8 @@ li::before {
 
 .add-top-margin {
   margin-top: 5px;
+}
+
+.add-top-margin-extra {
+  margin-top: 10px;
 }
